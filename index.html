@@ -1,98 +1,122 @@
-<!DOCTYPE html>
+!-- ===== Félix Silvestrini Real Estate – Email HTML ===== -->
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Energía Solar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Orientación gratuita - Venta de propiedad</title>
   <style>
-    body {
-      background-color: #f0f8ff;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+    /* Mobile tweaks (clients que respetan <style>) */
+    @media screen and (max-width:600px){
+      .container{width:100%!important}
+      .px{padding-left:20px!important;padding-right:20px!important}
+      .h1{font-size:26px!important;line-height:1.25!important}
     }
-    .container {
-      max-width: 600px;
-      margin: auto;
-      padding: 30px;
-      background-color: white;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      border-radius: 12px;
-      margin-top: 50px;
-    }
-    h1 {
-      text-align: center;
-      color: #0077b6;
-    }
-    input, label {
-      display: block;
-      width: 100%;
-      margin-bottom: 15px;
-      font-size: 16px;
-    }
-    input[type="text"], input[type="tel"], input[type="email"] {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    .question {
-      margin-bottom: 15px;
-    }
-    .question span {
-      display: block;
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-    .question label {
-      display: inline;
-      margin-right: 20px;
-    }
-    button {
-      background-color: #00b4d8;
-      color: white;
-      padding: 12px;
-      width: 100%;
-      border: none;
-      border-radius: 6px;
-      font-size: 18px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #0096c7;
-    }
-    .footer {
-      text-align: center;
-      font-size: 24px;
-      color: #0077b6;
-      margin-top: 20px;
-    }
+    /* Dark-mode friendly buttons */
+    a.btn{background:#c20016;color:#ffffff!important;text-decoration:none;border-radius:8px;display:inline-block}
+    a.btn:hover{opacity:.92}
   </style>
 </head>
-<body>
-  <div class="container">
-    <h1>¡Nuevo programa de energía solar que te paga hasta $1,200!</h1>
-    <form action="https://formsubmit.co/lisandrasolivan@gmail.com" method="POST">
-      <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido" required>
-      <input type="tel" name="Teléfono" placeholder="Teléfono" required>
-      <input type="email" name="Correo Electrónico" placeholder="Correo Electrónico" required>
+<body style="margin:0;background:#f4f5f7;">
+  <center style="width:100%;background:#f4f5f7;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+      <tr>
+        <td align="center">
+          <table role="presentation" class="container" cellpadding="0" cellspacing="0" border="0" width="600" style="width:600px;max-width:600px;background:#ffffff;border-radius:14px;overflow:hidden;margin:24px 0;">
+            <!-- Header / logo -->
+            <tr>
+              <td align="center" style="padding:20px 24px 8px">
+                <img src="[[LOGO_URL]]" width="180" alt="Félix Silvestrini Real Estate" style="display:block;height:auto;border:0;">
+              </td>
+            </tr>
 
-      <div class="question">
-        <span>¿Estás interesado(a) en una consulta gratuita?</span>
-        <label><input type="radio" name="Consulta Gratuita" value="Sí" required> Sí</label>
-        <label><input type="radio" name="Consulta Gratuita" value="No" required> No</label>
-      </div>
+            <!-- Hero -->
+            <tr>
+              <td class="px" style="padding:0 32px 8px">
+                <h1 class="h1" style="margin:8px 0 12px;font-family:Montserrat,Arial,sans-serif;font-weight:800;color:#222;letter-spacing:-0.3px;">
+                  Vender tu propiedad no es solo poner un precio… <span style="color:#c20016;">es tener un plan.</span>
+                </h1>
+                <p style="margin:0 0 16px;font-family:Montserrat,Arial,sans-serif;font-size:16px;line-height:1.6;color:#444;">
+                  Hola [[Nombre]], vi que te interesó nuestro anuncio y quiero compartirte algo útil:
+                  muchos propietarios en Puerto Rico <strong>pierden tiempo o dinero</strong> por vender sin estrategia.
+                  Mi rol es ayudarte a tomar decisiones informadas con <strong>datos claros</strong> y un plan sencillo.
+                </p>
+              </td>
+            </tr>
 
-      <div class="question">
-        <span>¿Tienes techo propio donde instalar paneles solares?</span>
-        <label><input type="radio" name="Techo Propio" value="Sí" required> Sí</label>
-        <label><input type="radio" name="Techo Propio" value="No" required> No</label>
-      </div>
+            <!-- Value bullets -->
+            <tr>
+              <td class="px" style="padding:0 32px 6px">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td style="padding:10px 0;">
+                      <ul style="margin:0;padding:0 0 0 18px;font-family:Montserrat,Arial,sans-serif;font-size:16px;line-height:1.7;color:#333;">
+                        <li><strong>Análisis del valor real</strong> de tu propiedad según el mercado actual.</li>
+                        <li><strong>Estrategia personalizada</strong> para atraer compradores serios (locales y diáspora).</li>
+                        <li><strong>Acompañamiento completo</strong> para vender con confianza y sin estrés.</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
-      <button type="submit">¡CUALIFICA HOY!</button>
-    </form>
-    <div class="footer">
-      Sin importar crédito | $0 inversión | Garantía ilimitada
-    </div>
-  </div>
+            <!-- CTA block -->
+            <tr>
+              <td align="center" style="padding:8px 32px 24px">
+                <!-- Button to WhatsApp or landing -->
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center" bgcolor="#c20016" style="border-radius:8px;">
+                      <a class="btn" href="https://wa.me/17875070107?text=Hola%20Félix,%20quiero%20orientación%20para%20vender%20mi%20propiedad%20(conocer%20valor,%20estrategia%20y%20compradores%20serios)." 
+                         style="font-family:Montserrat,Arial,sans-serif;font-size:16px;line-height:1.2;padding:14px 22px;border:1px solid #c20016;">
+                        Solicitar orientación gratuita
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <p style="margin:12px 0 0;font-family:Montserrat,Arial,sans-serif;font-size:13px;color:#777;">
+                  ¿Prefieres agenda web? <a href="[[LINK_LANDING_OR_CALENDLY]]" style="color:#c20016;text-decoration:underline;">Reserva aquí</a>.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Signature -->
+            <tr>
+              <td class="px" style="padding:6px 32px 20px;border-top:1px solid #eee;">
+                <p style="margin:16px 0 6px;font-family:Montserrat,Arial,sans-serif;font-size:15px;color:#333;">
+                  Un saludo,
+                </p>
+                <p style="margin:0 0 2px;font-family:Montserrat,Arial,sans-serif;font-weight:700;color:#222;">
+                  Félix Silvestrini
+                </p>
+                <p style="margin:0 0 8px;font-family:Montserrat,Arial,sans-serif;font-size:13px;color:#555;">
+                  Lic. C-23200 · Real Estate Broker
+                </p>
+                <p style="margin:0 0 16px;font-family:Montserrat,Arial,sans-serif;font-size:13px;color:#555;">
+                  📞 <a href="tel:+17875070107" style="color:#c20016;text-decoration:none;">787-507-0107</a> · 
+                  ✉️ <a href="mailto:felixisilvestrini@gmail.com" style="color:#c20016;text-decoration:none;">felixisilvestrini@gmail.com</a>
+                </p>
+              </td>
+            </tr>
+
+            <!-- Footer / compliance -->
+            <tr>
+              <td align="center" style="padding:16px 24px 24px;">
+                <p style="margin:0 0 8px;font-family:Montserrat,Arial,sans-serif;font-size:12px;color:#8a8a8a;">
+                  Recibiste este mensaje porque interactuaste con nuestro anuncio. 
+                  Si no deseas más correos, <a href="[[LINK_UNSUBSCRIBE]]" style="color:#8a8a8a;text-decoration:underline;">cancela la suscripción</a>.
+                </p>
+                <p style="margin:0;font-family:Montserrat,Arial,sans-serif;font-size:12px;color:#8a8a8a;">
+                  Félix Silvestrini Real Estate · Puerto Rico
+                </p>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
 </body>
 </html>
